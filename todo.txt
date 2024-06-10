@@ -1,0 +1,24 @@
+The design of my snooker application was based upon the picture provided.
+I tried to make an exact replica of the picture provided whilst also
+following the dimensions required for the assignment. 
+
+For the functionality of the cue i decided to use the arrow keys. I found that
+using the arrows keys made the game easier to play whilst also providing a bit
+more challenge as it is harder to aim using arrow keys then it would be with
+the mouse. This may seem counter-intuitive, but since I added a hit indicator, 
+i wanted to make the pool game a bit harder to balance that feature. When
+placing the cue ball in the d-zone i decided to use mouse interaction as I
+found it is the most self explanitory and it is the easiest for users to
+understand. 
+
+In my unique extension, I have implemented a custom game mode, activated when
+the user clicks the number 4. This mode features the standard snooker ball
+arrangement, but with 6 portals scattered across the pool table. When a ball
+enters a portal, it emerges from the corresponding portal on the opposite end.
+This twist to the traditional snooker game, only achievable through video game
+technology, adds an extra level of excitement and interest.
+
+The inspiration behind my idea came from the video game "Portal 2" where the
+user can jump through a portal and appear through the side of another portal.
+The implamentation behind this was quite straightforward, as the velocity when
+the ball hits the portal is carried when i teleport it to its new location.
